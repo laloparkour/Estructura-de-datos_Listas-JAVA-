@@ -1,0 +1,10 @@
+Cada NODO tiene DOS APUNTADORES, uno hacia el SIGUIENTE NODO y uno hacia el NODO ANTERIOR
+el siguiente de ultimo apunta a null y tambien el anterior del primero apunta a null
+Cuando amarramos un nodo nuevo, tenemos que modificar dos apuntadores
+
+Cuando creamos la lista tanto el anterior de head como el siguiente de head por default apuntan a NULL
+
+Cuando vamos a insertar al inicio nos vamos al head actual al que es al primero
+
+Cuando se refiere que apunta a un NODO, es al NODO COMPLETO
+en el caso de que apunta a P es que apunta al NODO P COMPLETO

@@ -1,0 +1,5 @@
+Para eliminar la posicion 0 en una lista circular debemos hacer que el ultimo apunte al que va ser el nuevo primero
+como hacemos eso, tendriamos que recorrer la lista hasta llegar al ultimo, y una vez que estamos en el ultimo modificamos ese apuntador
+como encontramos el ultimo?, en una lista circular para encontrar el ultimo tendrias que checar hasta que llegue a head, el que su siguiente
+sea head, ese seria el ultimo, entonces tendriamos que buscar el ultimo	primero antes de mover los apuntadores, luego mueves head, y luego
+mueves el apuntador del ultimo para que apunte al nuevo head 

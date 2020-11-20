@@ -1,0 +1,50 @@
+LISTAS(Estructura de Datos)
+Consiste en una secuencia de nodos, en los que se guardan campos de datos
+arbitrarios y una o más referencia, enlaces o punteros al nodo anterior o posterior
+Es dinamica, no es necesario conocer la cantidad de elementos que va a contener
+Los NODOS o elementos de una lista contienen el dato a almacenar y un enlace
+al siguiente elemento
+ 
+Es un tipo de dato autoreferenciado por que contiene un apuntador 
+a otro dato del mismo tipo 
+
+Clasificacion de las Listas
+
+Enlazadas
+Doblemente Enlazadas
+Enlazadas Circulares
+Enlazadas Doblemente Circulares
+Listas Ortogonales 
+Elementos de un NODO 
+CAMPO CON INFORMACION
+Guarda un elemento del tipo de la lista y mas apuntadores que guardan
+las posiciones de otros nodos ya sean, anteriores, siguientes, arriba, abajo 
+CAMPO CON APUNTADOR
+Consiste en un objeto de la misma clase que el objeto al que hace referencia
+Consiste en un campo con un apuntador al siguiente nodo de la lista
+ 
+HEAD
+Guarda la posicion del primer nodo de la lista
+ 
+LISTAS ENLAZADAS
+Una lista enlazada es una coleccion o secuencia de elementos dispuestos uno detrás de otro,
+en la que cada elemento se coencta al siguiente elemento por un "enlace" o "referencia"
+ 
+Hace uso de memoria dinamica
+ 
+En una lista enlazada simple, los elementos se van recorriendo hacia la izquierda
+ 
+Estructura de una Lista Enlazada
+ 		El elemento principal es el "NODO"
+ 		El nodo se compone de dos campos:
+ 				La informacion (Dato)
+ 				La referencia(Enlace o Siguiente)
+		Nuestro puntero siguiente apunta hasta el mismo nodo
+
+Operaciones en Listas Enlazadas:
+		Inicializacion o Creación
+		Insertar elementos en la Lista
+		Elimina elementos de la Lista
+		Buscar Elementos en las Lista
+		Recorrer la Lista Enlazada
+		Comprobar si la Lista esta vacía --- si siguiente apunta a null
